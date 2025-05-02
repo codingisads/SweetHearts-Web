@@ -1,0 +1,48 @@
+
+.parent{
+    display: block;
+    margin: 0 auto;
+    width: min-content;
+    margin-top: 5rem;
+}
+
+.parent > p {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.images-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.background-shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+}
+
+.align {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.heart{
+    display: flex;
+    margin: 2rem auto;
+    width: 40px;
+}
+
+.heart > img {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .images-grid{
+        display: block;
+    }
+    .align{
+        margin-top: 2rem;
+    }
+}
