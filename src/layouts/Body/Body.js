@@ -14,6 +14,7 @@ function Body() {
             <Products></Products>
             <SectionTitle title={"precios"} keyP={"precios"}></SectionTitle>
             <Prices></Prices>
+            <SectionTitle title={"contacto"} keyP={"contacto"}></SectionTitle>
         </div>
     )
 }

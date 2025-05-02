@@ -6,6 +6,8 @@ body{
 .prices-parent{
     display: flex;
     margin-top: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .prices-child{
