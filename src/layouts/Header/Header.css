@@ -29,7 +29,6 @@
     font-family: 'NewYork', sans-serif;
     font-size: 10rem;
     line-height: 8rem;
-    width: 100%;
     padding-left: 4rem;
     margin-bottom: 2rem;
 }
@@ -51,7 +50,23 @@
 }
 
 @media (max-width: 600px) {
-    .title > div> h1{
-        font-size: 8rem;
-    }
+    
+.title > div > h1{
+    color: var(--main-bg-color);
+    font-weight: 200;
+    font-family: 'NewYork', sans-serif;
+    font-size: 78px;
+    line-height: 68px;
+
+    padding-left: 0px;
+    margin-bottom: 2rem;
+}
+
+.title > div {
+    text-align: center;
+    font-weight: 400;
+    color: var(--main-bg-color);
+    font-size: 22px;
+    width: 100%;
+}
 }
