@@ -4,6 +4,7 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle'
 import AboutUs from '../AboutUs/AboutUs'
 import Products from '../Products/Products'
 import Prices from '../Prices/Prices'
+import Contact from '../Contact/Contact'
 
 function Body() {
     return (
@@ -15,6 +16,7 @@ function Body() {
             <SectionTitle title={"precios"} keyP={"precios"}></SectionTitle>
             <Prices></Prices>
             <SectionTitle title={"contacto"} keyP={"contacto"}></SectionTitle>
+            <Contact></Contact>
         </div>
     )
 }

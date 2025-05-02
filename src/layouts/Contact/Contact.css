@@ -1,0 +1,43 @@
+.contact-parent {
+    margin-top: 5rem;
+}
+
+
+.contact-parent>p {
+    margin-left: 3rem;
+    font-weight: 500;
+}
+
+
+.contact-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    font-weight: 200;
+    text-align: center;
+    font-size: 16px;
+    width: 60%;
+    margin: 10rem auto;
+}
+
+.contact-grid>div>img {
+    display: flex;
+    margin: 0 auto;
+    width: 30px;
+}
+
+@media (max-width: 1200px) {
+    .contact-grid {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-grid {
+        display: block;
+    }
+
+    .contact-grid>div>img {
+        margin: 1rem auto;
+    }
+}
