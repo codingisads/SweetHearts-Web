@@ -1,0 +1,51 @@
+
+
+
+.bg-image {
+    background-image: url('/src/assets/images/header/bg-image.png');
+    height: 1000px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.blurred{
+    backdrop-filter: blur(10px);
+    width: inherit;
+    height: inherit;
+}
+
+.title{
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+
+.title > div > h1{
+    color: var(--main-bg-color);
+    font-weight: 200;
+    font-family: 'NewYork', sans-serif;
+    font-size: 10rem;
+    line-height: 8rem;
+    width: 100%;
+    padding-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+.title > div {
+    text-align: center;
+    font-weight: 400;
+    color: var(--main-bg-color);
+    font-size: 22px;
+}
+
+.subtitle{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 3rem;
+    font-size: 22px;
+    font-weight: 400;
+}
