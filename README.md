@@ -2,6 +2,8 @@
 
 Una pequeña web de práctica creada con **React**, **HTML** y **CSS**, inspirada en una pastelería que ofrece postres coreanos. El objetivo fue reforzar el diseño responsivo y la maquetación visual utilizando componentes en React.
 
+🔗 **Demo en vivo**: [sweet-treats-bymicaela.netlify.app](https://sweet-treats-bymicaela.netlify.app/)
+
 ## 🖼 Vista previa
 
 ![Sweet Hearts Screenshot](./src/assets/images/post.png)
