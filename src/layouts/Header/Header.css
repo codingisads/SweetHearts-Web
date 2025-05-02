@@ -49,3 +49,9 @@
     font-size: 22px;
     font-weight: 400;
 }
+
+@media (max-width: 600px) {
+    .title > div> h1{
+        font-size: 8rem;
+    }
+}
