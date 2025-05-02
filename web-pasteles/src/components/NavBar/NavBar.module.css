@@ -1,0 +1,51 @@
+:root {
+    --main-bg-color: white;
+    --main-font-color: rgb(31, 31, 31);
+  }
+
+body {
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+
+.navbarflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 5rem;
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+  }
+  
+  .logo {
+    font-size: .75rem;
+    font-weight: bold;
+    width: 9rem;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 15rem;
+  }
+  
+  .menu a {
+    color: var(--main-font-color);
+    text-decoration: none;
+    font-weight: 300;
+  }
+  
+  /* Responsive: stack items vertically */
+  @media (max-width: 600px) {
+    .navbarflex {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .menu {
+      flex-direction: column;
+      margin-top: 1rem;
+      gap: 0.5rem;
+    }
+  }
