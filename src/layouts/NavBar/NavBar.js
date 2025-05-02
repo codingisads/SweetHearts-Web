@@ -9,9 +9,9 @@ function NavBar() {
                 <Logo className='logo' alt='logo'></Logo>
                 <div className='menu'>
                     <a href="#sobre-nosotros">sobre nosotros</a>
-                    <a href="/servicios">productos</a>
-                    <a href="/contacto">precios</a>
-                    <a href="/contacto">contacto</a>
+                    <a href="#productos">productos</a>
+                    <a href="#precios">precios</a>
+                    <a href="#contacto">contacto</a>
                 </div>
             </nav>
         </div>

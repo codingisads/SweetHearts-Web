@@ -1,0 +1,49 @@
+
+body{
+    font-size: 20px;
+}
+
+.prices-parent{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.prices-child{
+    width: fit-content;
+    margin: 0 auto;
+
+}
+.prices-section{
+    margin-left: 4rem;
+}
+
+h2{
+    font-style: italic;
+}
+
+h2, h3 {
+    font-weight: 500;
+}
+
+li {
+    font-weight: 200;
+}
+
+li > ul > li{
+    font-weight: 400;
+}
+
+.ul-section {
+    margin-left: 4rem;
+    list-style-type: none;
+}
+
+span {
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    body{
+        font-size: 14px;
+    }
+}

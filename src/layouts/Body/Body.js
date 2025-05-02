@@ -3,6 +3,7 @@ import './Body.css'
 import SectionTitle from '../../components/SectionTitle/SectionTitle'
 import AboutUs from '../AboutUs/AboutUs'
 import Products from '../Products/Products'
+import Prices from '../Prices/Prices'
 
 function Body() {
     return (
@@ -11,6 +12,8 @@ function Body() {
             <AboutUs></AboutUs>
             <SectionTitle title={"productos"} keyP={"productos"}></SectionTitle>
             <Products></Products>
+            <SectionTitle title={"precios"} keyP={"precios"}></SectionTitle>
+            <Prices></Prices>
         </div>
     )
 }
