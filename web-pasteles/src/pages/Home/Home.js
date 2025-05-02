@@ -6,6 +6,7 @@ export const Home = () => {
     return (
         <div>
             <NavBar/>
+            <div style={{height: "500px"}}></div>
             <Body/>
         </div>
     )

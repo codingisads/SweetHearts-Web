@@ -4,6 +4,11 @@
   --main-font-color: rgb(31, 31, 31);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 @font-face {
   font-family: 'NewYork';
   src: local('NewYork'), url(./assets/fonts/NewYork.otf) format('opentype');
