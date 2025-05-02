@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './NavBar.module.css';
+import './NavBar.css';
 import { ReactComponent as Logo} from '../../assets/images/logo_cakes1.svg';
 
 function NavBar() {
@@ -12,9 +12,9 @@ function NavBar() {
         //     <a href="#about">About</a>
         // </div>
         <div>
-            <nav className={styles.navbarflex}>
-                <Logo className={styles.logo} alt='logo'></Logo>
-                <div className={styles.menu}>
+            <nav className='navbarflex'>
+                <Logo className='logo' alt='logo'></Logo>
+                <div className='menu'>
                     <a href="/">sobre nosotros</a>
                     <a href="/servicios">productos</a>
                     <a href="/contacto">precios</a>
