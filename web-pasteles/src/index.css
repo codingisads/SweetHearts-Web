@@ -4,6 +4,12 @@
   --main-font-color: rgb(31, 31, 31);
 }
 
+@font-face {
+  font-family: 'NewYork';
+  src: local('NewYork'), url(./assets/fonts/NewYork.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
 
 body {
   margin: 0;

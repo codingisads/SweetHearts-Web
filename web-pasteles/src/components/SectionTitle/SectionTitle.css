@@ -1,0 +1,62 @@
+.box {
+    border-left: 0.2px solid black;
+    margin: 5%;
+}
+
+.father-box {
+    position: relative;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.father-box h3 {
+    font-family: 'NewYork', serif;
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+}
+
+/* Esquina superior izquierda */
+.upper-box-deco::before,
+.upper-box-deco::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+}
+
+.upper-box-deco::before {
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 1px;
+}
+
+.upper-box-deco::after {
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 30px;
+}
+
+/* Esquina inferior derecha */
+.lower-box-deco::before,
+.lower-box-deco::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+}
+
+.lower-box-deco::before {
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 1px;
+}
+
+.lower-box-deco::after {
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    height: 30px;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
-import NavBar from '../NavBar/NavBar'
-import Body from '../Body/Body'
+import NavBar from '../../layouts/NavBar/NavBar'
+import Body from '../../layouts/Body/Body'
 
 export const Home = () => {
     return (
