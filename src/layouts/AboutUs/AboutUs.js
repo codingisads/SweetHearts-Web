@@ -6,7 +6,10 @@ import '../AboutUs/AboutUs.css'
 function AboutUs() {
     return (
         <div className='about-us-section'>
-            <div className='lorem-ipsum'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></div>
+            <div className='lorem-ipsum'><p>Nacimos de la pasión por los detalles, los sabores delicados y la estética minimalista que hace único a cada bocado.
+                <br/>Creemos que lo pequeño puede ser poderoso: nuestros pasteles son mini, pero están llenos de sabor, cariño y diseño.
+                <br/>Usamos ingredientes frescos y recetas tradicionales con un toque moderno, para crear dulces que no solo saben bien, sino que también inspiran alegría visual.
+                <br/>Ya sea que busques sorprender con un regalo especial, celebrar un momento íntimo o simplemente darte un gusto, estamos aquí para hacer de lo cotidiano algo encantador.</p></div>
             <div className='box-images'>
                 <div className='circle'></div>
                 <img src={myImage2} alt='img2' className='img1'></img>
